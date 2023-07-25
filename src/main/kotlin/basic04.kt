@@ -6,7 +6,7 @@ class Song(val title: String, val artist: String, val publishYear: Int, val play
 
 
     fun explainSong(){
-        println("[$title], 연주한 [$artist], 출시한 [$publishYear]")
+        println("The song title is [$title], the artist is [$artist], and published in [$publishYear]")
     }
 }
 
